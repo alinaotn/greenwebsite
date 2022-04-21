@@ -9,7 +9,6 @@ module.exports = {
         fontFamily: {
             'sans': ['Roboto Mono', ...defaultTheme.fontFamily.sans],
         },
-
         fontSize: {
             'small': '.875rem', //14px
             'base': '1rem', //16px

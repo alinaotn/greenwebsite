@@ -11,6 +11,8 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -30,8 +32,12 @@ h4 {
     @apply text-2xl;
 }
 
-span, p {
+span, p, a {
     @apply text-medium;
+}
+
+.active {
+  font-weight: bold;
 }
 
 
