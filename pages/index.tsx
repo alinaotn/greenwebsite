@@ -84,12 +84,12 @@ const Home: NextPage = () => {
           <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
             <a
-              href="/"
+              href="/imprint"
               target="_self"
               rel="noopener noreferrer"
             >Imprint &nbsp; &nbsp;</a> |
             <a
-              href="/"
+              href="/security"
               target="_self"
               rel="noopener noreferrer"
             > &nbsp; &nbsp;Data Security</a>
