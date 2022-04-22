@@ -15,14 +15,14 @@ export default function Menu() {
           rel="noopener noreferrer"
           className={router.pathname == "/" ? "active" : ""}
         >Home</a>
-        <a href="/"
+        <a href="/developer"
            target="_self"
            rel="noopener noreferrer"
-           className={router.pathname == "/developers" ? "active" : ""}>Developers</a>
-        <a href="/"
+           className={router.pathname == "/developer" ? "active" : ""}>Developer</a>
+        <a href="/user"
            target="_self"
-           rel="noopener noreferrer" className={router.pathname == "/users" ? "active" : ""}>Users</a>
-        <a href="/"
+           rel="noopener noreferrer" className={router.pathname == "/users" ? "active" : ""}>User</a>
+        <a href="/extension"
            target="_self"
            rel="noopener noreferrer" className={router.pathname == "/extension" ? "active" : ""}>Browser extension</a>
       </div>
