@@ -36,6 +36,10 @@ module.exports = {
         extend: {
             spacing: {
                 '-150px': '-150px',
+
+            },
+            width: {
+                '30': '30%',
             },
             typography: (theme) => ({
                 DEFAULT: {

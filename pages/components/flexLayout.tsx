@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function FlexLayout({children}: React.PropsWithChildren<{}>) {
+type FlexLayoutProps = {
+  isCol?: boolean;
+  isFlexWrap?: boolean;
+}
+export default function FlexLayout({children, isCol = false, isFlexWrap = false}: React.PropsWithChildren<{}> & FlexLayoutProps) {
   return (
     <>
-      <main className="flex items-center justify-center h-screen gap-6 flex-wrap">{children}</main>
+      <main className={`flex items-center justify-center gap-6 ${isCol && 'flex-col'} ${isFlexWrap && 'flex-wrap'}`}>{children}</main>
     </>
   )
 }

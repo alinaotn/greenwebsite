@@ -4,6 +4,7 @@ import Image from 'next/image'
 import FlexLayout from "./components/flexLayout";
 import Menu from "./components/menu";
 import React from "react";
+import CompareLayout from "./components/compareLayout";
 
 const Home: NextPage = () => {
 
@@ -40,18 +41,52 @@ const Home: NextPage = () => {
         <Menu/>
         <div className="flex items-center justify-end h-full flex-wrap flex-col">
           <h1 className="w-3/5 text-center ">How your internet consumption affects our planet</h1>
-          <div className="mt-24"><Image src="/mouse-scroll.svg" alt="Mouse Scroll Vector" width={50} height={123}/>
+          <div className="mt-24">
+            <Image src="/mouse-scroll.svg" alt="Mouse Scroll Vector" width={50} height={123}/>
           </div>
         </div>
       </div>
 
-      <FlexLayout>
-      </FlexLayout>
+      <div className="h-auto mt-24 z-10 p-12">
+        <FlexLayout isCol={true}>
+          <h1 className="w-3/5 text-center">Let’s have a look at some examples:
+            If you spend one hour on the internet...</h1>
+          <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
+                         content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."/>
+          <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
+                         content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."
+                         imageFirst={false}/>
+          <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
+                         content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."/>
+          <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
+                         content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."
+                         imageFirst={false}/>
+        </FlexLayout>
+      </div>
 
-      <FlexLayout>
-      </FlexLayout>
+      <div className="h-screen z-10 p-12 relative flex items-center justify-center flex-col mt-24">
+        <h1 className="w-3/5 text-center">What you can do now:</h1>
+        <FlexLayout isCol>
+          <div className="relative mt-8">
+            <a className="text-4xl font-medium absolute z-10 top-20"
+               href="/"
+               target="_self"
+               rel="noopener noreferrer"
+            >As a software developer</a>
+            <Image className="absolute" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
+          </div>
+          <div className="relative mt-8">
+            <a className="text-4xl font-medium absolute z-10 top-20 left-8"
+               href="/"
+               target="_self"
+               rel="noopener noreferrer"
+            >As an internet user</a>
+            <Image className="absolute " src="/background2.svg" alt="Background Vector" width={354} height={197}/>
+          </div>
+        </FlexLayout>
+      </div>
 
-      <footer className="flex items-center justify-center pb-12">
+      <footer className="flex items-center justify-center pb-12 mt-24">
         <span className="flex items-center">
           <a
             href="/"
