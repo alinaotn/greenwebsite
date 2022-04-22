@@ -33,16 +33,16 @@ const Home: NextPage = () => {
       <div className="absolute z-0 top-44 right-[-50px]">
         <Image src="/flower2.svg" alt="Background Flower Vector" width={555} height={526}/>
       </div>
-      <div className="absolute z-0 top-80 left-[37%]">
-        <Image src="/background1.svg" alt="Background Vector" width={354} height={197}/>
-      </div>
 
 
-      <div className="h-screen z-10 p-12 relative">
+      <div className="h-screen z-10 p-12 ">
         <Menu/>
-        <div className="flex items-center justify-center h-screen flex-wrap flex-col">
-          <h1 className="w-3/5 text-center ">How your internet consumption affects our planet</h1>
+
+        <div className="flex items-center justify-center h-screen flex-wrap flex-col relative">
+          <h1 className="w-3/5 text-center background-image p-8">How your internet consumption affects our planet
+          </h1>
         </div>
+
       </div>
 
       <div className="h-auto mt- z-10 p-12">

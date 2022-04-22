@@ -23,7 +23,7 @@ export default function Menu() {
            className={router.pathname == "/developer" ? "active" : ""}>Developer</a>
         <a href="/user"
            target="_self"
-           rel="noopener noreferrer" className={router.pathname == "/users" ? "active" : ""}>User</a>
+           rel="noopener noreferrer" className={router.pathname == "/user" ? "active" : ""}>User</a>
         <a href="/extension"
            target="_self"
            rel="noopener noreferrer" className={router.pathname == "/extension" ? "active" : ""}>Browser extension</a>

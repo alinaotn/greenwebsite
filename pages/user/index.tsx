@@ -28,9 +28,6 @@ const User: NextPage = () => {
       <div className="absolute z-0 top-[30%] right-[-5%]">
         <Image src="/flower6.svg" alt="Background Flower Vector" width={600} height={500}/>
       </div>
-      <div className="absolute z-0 left-0 top-[345%]">
-        <Image src="/flower7.svg" alt="Background Vector" width={400} height={500}/>
-      </div>
 
       <div className="z-10 p-12 relative">
         <div className="absolute z-0 bottom-0 right-[-5%]">
