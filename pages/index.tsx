@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         <FlexLayout isCol={true}>
           <h1 className="w-3/5 text-center">Let’s have a look at some examples:
             If you spend one hour on the internet...</h1>
-          <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
+          <CompareLayout imageSrc="/washing.svg" imageWidth={399} imageHeight={347}
                          content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."/>
           <CompareLayout imageSrc="/compare1.svg" imageWidth={189} imageHeight={200}
                          content="...you consume as much energy as one full load of washing. This is 80kg of CO2 equivalent."
