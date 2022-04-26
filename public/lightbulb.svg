@@ -1,0 +1,45 @@
+<svg width="312" height="330" viewBox="0 0 312 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M98.6205 285.337C40.3147 264.586 4.25368 227.504 0.488924 171.417C-3.94061 105.427 39.3988 96.9653 98.6205 57.4977C144.985 26.5983 193.647 -17.34 244.579 7.12305C300.865 34.1583 264.933 86.3741 269.442 143.431C273.283 192.028 296.07 210.306 269.442 252.789C236.058 306.05 162.002 307.895 98.6205 285.337Z"
+          fill="#667C74"/>
+    <path d="M8.58004 103.13C8.58004 103.13 7.56103 78.7599 18.6109 74.7459C29.3029 70.8618 33.3321 91.8508 44.2337 88.6013C56.1423 85.0517 44.2783 61.0324 56.5797 59.2742C66.7237 57.8244 67.3438 75.6361 77.5721 75.0165C91.1233 74.1955 80.7668 48.5435 93.6224 44.18C105.654 40.0962 112.216 61.1978 123.876 56.1486C135.279 51.2105 124.458 30.8269 136.222 26.8216C147.35 23.0322 152.025 43.6576 163.233 40.111C175.347 36.2781 164.167 13.4372 176.505 10.4066C187.316 7.75138 198.08 13.9546 201.202 24.6394"
+          stroke="#B1BFEC" stroke-width="5"/>
+    <circle cx="303.928" cy="322.75" r="7.25" fill="#E2F0DA"/>
+    <circle cx="303.928" cy="286.5" r="7.25" fill="#E2F0DA"/>
+    <circle cx="303.928" cy="250.25" r="7.25" fill="#E2F0DA"/>
+    <circle cx="231.428" cy="250.25" r="7.25" fill="#E2F0DA"/>
+    <circle cx="231.428" cy="250.25" r="7.25" fill="#E2F0DA"/>
+    <circle cx="267.678" cy="286.5" r="7.25" fill="#E2F0DA"/>
+    <circle cx="231.428" cy="286.5" r="7.25" fill="#E2F0DA"/>
+    <circle cx="267.678" cy="250.25" r="7.25" fill="#E2F0DA"/>
+    <circle cx="231.428" cy="322.75" r="7.25" fill="#E2F0DA"/>
+    <circle cx="269.128" cy="322.75" r="7.25" fill="#E2F0DA"/>
+    <path d="M128.193 274.243H177.527" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M152.86 107.743C183.512 107.743 208.36 132.591 208.36 163.243C208.36 185.029 195.808 203.882 177.542 212.967L177.527 224.91C177.527 238.533 166.483 249.577 152.86 249.577C139.237 249.577 128.193 238.533 128.193 224.91L128.191 212.973C109.918 203.891 97.3601 185.034 97.3601 163.243C97.3601 132.591 122.208 107.743 152.86 107.743Z"
+          fill="#FFBA00" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M152.86 76.91V64.5767" stroke="#FFBA00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite"
+                 keySplines="0 0 0.58 1"/>
+
+    </path>
+    <path d="M214.527 101.577L226.86 89.2433" stroke="#FFBA00" stroke-width="7" stroke-linecap="round"
+          stroke-linejoin="round">
+        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite"
+                 keySplines="0 0 0.58 1"/>
+    </path>
+    <path d="M91.1934 101.577L78.8601 89.2433" stroke="#FFBA00" stroke-width="7" stroke-linecap="round"
+          stroke-linejoin="round">
+        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite"
+                 keySplines="0 0 0.58 1"/>
+    </path>
+    <path d="M214.527 212.577L226.86 224.91" stroke="#FFBA00" stroke-width="7" stroke-linecap="round"
+          stroke-linejoin="round">        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite" keySplines="0 0 0.58 1" />
+    </path>
+    <path d="M91.1934 212.577L78.8601 224.91" stroke="#FFBA00" stroke-width="7" stroke-linecap="round"
+          stroke-linejoin="round">        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite" keySplines="0 0 0.58 1" />
+    </path>
+    <path d="M66.5268 150.91H54.1934" stroke="#FFBA00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite" keySplines="0 0 0.58 1" />
+    </path>
+    <path d="M251.527 150.91H239.193" stroke="#FFBA00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">        <animate attributeName="stroke" values="#FFF;#FFBA00; " dur="7s" repeatCount="indefinite" keySplines="0 0 0.58 1" />
+    </path>
+</svg>

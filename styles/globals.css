@@ -80,3 +80,16 @@ a:hover {
 .background-image {
     background: url("../public/background1.svg") no-repeat center;
 }
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+#rotate {
+    animation: rotate 5s infinite linear;
+}
+
+.center {
+    transform-origin: 49.7% 45.2%;
+}
