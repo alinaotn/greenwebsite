@@ -155,12 +155,12 @@ const Home: NextPage = () => {
           </CompareLayout>
 
           <CompareLayout imageSrc="/lightbulb.svg" imageWidth={312} imageHeight={330}
-                         content="...you can power an LED lightbulb constantly for a month."
+                         content="...you consume the same energy as an LED lightbulb constantly powered for a month."
                          imageFirst={false}/>
           <CompareLayout imageSrc="/car.svg" imageWidth={463} imageHeight={393}
-                         content="...you can drive a Tesla Model S more than 30km."/>
+                         content="...you consume the same energy when driving a Tesla Model S more than 30km."/>
           <CompareLayout imageSrc="/kettle.svg" imageWidth={377} imageHeight={463}
-                         content="...you can boil a kettle once a day for nearly three months."
+                         content="...you consume the same energy a kettle boiled once a day for nearly three months."
                          imageFirst={false}/>
         </FlexLayout>
       </div>
