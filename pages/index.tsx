@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           rel="stylesheet"/>
       </Head>
 
-      <div className="absolute z-0">
+      <div className="absolute -z-10">
         <Image src="/1.svg" alt="Background Vector" width={426} height={550}/>
       </div>
       <div className="absolute z-0">
@@ -61,62 +61,62 @@ const Home: NextPage = () => {
                 fill="#B1BFEC"/>
               <path
                 d="M304.759 242V249.237C304.759 249.237 265.843 269.956 272.843 269.956C279.843 269.956 330.716 269.956 332.712 269.956C334.709 269.956 313.078 254.939 313.078 254.939"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M299.843 233.953C299.843 233.953 301.255 231.033 303.013 230.376C304.336 229.881 305.318 229.868 306.636 230.376C308.647 231.151 309.468 232.742 309.806 234.847C310.36 238.296 304.843 242 304.843 242"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M62 55.0745C62 55.0745 67.4197 52.6568 69.809 55.0745C72.8217 58.123 66.271 65.7152 69.809 67.6365C71.315 68.4543 74 67.6365 74 67.6365"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M106 96.0745C106 96.0745 111.42 93.6568 113.809 96.0745C116.822 99.123 110.271 106.715 113.809 108.637C115.315 109.454 118 108.637 118 108.637"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M106 31.0745C106 31.0745 111.42 28.6568 113.809 31.0745C116.822 34.123 110.271 41.7152 113.809 43.6365C115.315 44.4543 118 43.6365 118 43.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M153 28.0745C153 28.0745 158.42 25.6568 160.809 28.0745C163.822 31.123 157.271 38.7152 160.809 40.6365C162.315 41.4543 165 40.6365 165 40.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M133 17.0745C133 17.0745 138.42 14.6568 140.809 17.0745C143.822 20.123 137.271 27.7152 140.809 29.6365C142.315 30.4543 145 29.6365 145 29.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M72 128.075C72 128.075 77.4197 125.657 79.809 128.075C82.8217 131.123 76.271 138.715 79.809 140.637C81.315 141.454 84 140.637 84 140.637"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M147 3.07454C147 3.07454 152.42 0.656828 154.809 3.07454C157.822 6.12295 151.271 13.7152 154.809 15.6365C156.315 16.4543 159 15.6365 159 15.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M124 35.0745C124 35.0745 129.42 32.6568 131.809 35.0745C134.822 38.123 128.271 45.7152 131.809 47.6365C133.315 48.4543 136 47.6365 136 47.6365"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M103 52.0745C103 52.0745 108.42 49.6568 110.809 52.0745C113.822 55.123 107.271 62.7152 110.809 64.6365C112.315 65.4543 115 64.6365 115 64.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M96 131.075C96 131.075 101.42 128.657 103.809 131.075C106.822 134.123 100.271 141.715 103.809 143.637C105.315 144.454 108 143.637 108 143.637"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M103 117.075C103 117.075 108.42 114.657 110.809 117.075C113.822 120.123 107.271 127.715 110.809 129.637C112.315 130.454 115 129.637 115 129.637"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M84 110.075C84 110.075 89.4197 107.657 91.809 110.075C94.8217 113.123 88.271 120.715 91.809 122.637C93.315 123.454 96 122.637 96 122.637"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M90 88.0745C90 88.0745 95.4197 85.6568 97.809 88.0745C100.822 91.123 94.271 98.7152 97.809 100.637C99.315 101.454 102 100.637 102 100.637"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M96 66.0745C96 66.0745 101.42 63.6568 103.809 66.0745C106.822 69.123 100.271 76.7152 103.809 78.6365C105.315 79.4543 108 78.6365 108 78.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M72 80.0745C72 80.0745 77.4197 77.6568 79.809 80.0745C82.8217 83.123 76.271 90.7152 79.809 92.6365C81.315 93.4543 84 92.6365 84 92.6365"
-                stroke="white" stroke-width="3" stroke-linecap="round"/>
+                stroke="white" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M84 44.0745C84 44.0745 89.4197 41.6568 91.809 44.0745C94.8217 47.123 88.271 54.7152 91.809 56.6365C93.315 57.4543 96 56.6365 96 56.6365"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
               <path
                 d="M64 99.0745C64 99.0745 69.4197 96.6568 71.809 99.0745C74.8217 102.123 68.271 109.715 71.809 111.637C73.315 112.454 76 111.637 76 111.637"
-                stroke="#B1BFEC" stroke-width="3" stroke-linecap="round"/>
-              <path fill-rule="evenodd" clip-rule="evenodd"
+                stroke="#B1BFEC" strokeWidth="3" strokeLinecap="round"/>
+              <path fillRule="evenodd" clipRule="evenodd"
                     d="M122.391 83.4708V210.779C122.391 222.497 132.236 231.997 144.381 231.997H254.331C266.476 231.997 276.321 222.497 276.321 210.779V83.4708M122.391 83.4708V62.2528C122.391 50.5345 132.236 41.0349 144.381 41.0349H254.331C266.476 41.0349 276.321 50.5345 276.321 62.2528V83.4708M122.391 83.4709H276.321ZM221.346 62.253H254.331ZM243.336 157.734C243.336 181.17 223.646 200.17 199.356 200.17C175.067 200.17 155.376 181.17 155.376 157.734M243.336 157.734C243.336 134.297 223.646 115.298 199.356 115.298C175.067 115.298 155.376 134.297 155.376 157.734"
                     fill="#D4B8A3"/>
               <path
@@ -124,32 +124,32 @@ const Home: NextPage = () => {
                 fill="white"/>
               <path
                 d="M292 80.656C292 74.9074 298.959 63.9999 298.959 63.9999C298.959 63.9999 308.974 75.2022 306.65 81.8351C305.428 85.3238 303.46 87.1162 298.959 86.9941C294.612 86.8762 292 84.1564 292 80.656Z"
-                stroke="#E2F0DA" stroke-width="2" stroke-linecap="round"/>
+                stroke="#E2F0DA" strokeWidth="2" strokeLinecap="round"/>
               <path
                 d="M285 120.656C285 114.907 291.959 104 291.959 104C291.959 104 301.974 115.202 299.65 121.835C298.428 125.324 296.46 127.116 291.959 126.994C287.612 126.876 285 124.156 285 120.656Z"
-                stroke="#E2F0DA" stroke-width="2" stroke-linecap="round"/>
+                stroke="#E2F0DA" strokeWidth="2" strokeLinecap="round"/>
               <path
                 d="M309 113.725C309 106.227 318.279 91.9999 318.279 91.9999C318.279 91.9999 331.632 106.612 328.534 115.263C326.904 119.814 324.279 122.152 318.279 121.992C312.483 121.838 309 118.291 309 113.725Z"
-                stroke="#E2F0DA" stroke-width="2" stroke-linecap="round"/>
+                stroke="#E2F0DA" strokeWidth="2" strokeLinecap="round"/>
               <path d="M292 123C292 123 293.668 122.284 294.5 121.625C295.208 121.065 296 120 296 120" stroke="#E2F0DA"
-                    stroke-width="2" stroke-linecap="round"/>
+                    strokeWidth="2" strokeLinecap="round"/>
               <path d="M300 82.9999C300 82.9999 301.668 82.2842 302.5 81.6249C303.208 81.0645 304 79.9999 304 79.9999"
-                    stroke="#E2F0DA" stroke-width="2" stroke-linecap="round"/>
+                    stroke="#E2F0DA" strokeWidth="2" strokeLinecap="round"/>
               <path d="M319 116C319 116 320.668 115.284 321.5 114.625C322.208 114.065 323 113 323 113" stroke="#E2F0DA"
-                    stroke-width="2" stroke-linecap="round"/>
+                    strokeWidth="2" strokeLinecap="round"/>
               <g id="rotate" className="center">
                 <path
                   d="M242.96 156.436C242.96 179.873 223.27 198.872 198.98 198.872C174.691 198.872 155 179.873 155 156.436"
-                  stroke="white" stroke-width="6"/>
+                  stroke="white" strokeWidth="6"/>
                 <path d="M242.96 156.436C242.96 132.999 223.27 114 198.98 114C174.691 114 155 132.999 155 156.436"
-                      stroke="white" stroke-width="6"/>
+                      stroke="white" strokeWidth="6"/>
                 <path
                   d="M242.624 158.702C232.956 161.718 210.728 165.949 199.124 158.702C187.52 151.456 165.292 155.687 155.624 158.702"
-                  stroke="white" stroke-width="7"/>
+                  stroke="white" strokeWidth="7"/>
               </g>
               <path
                 d="M3 160.036C3 160.036 35.7723 127.298 67.5 150.036C96.2079 170.609 67.5783 237.25 93 261.769C121.812 289.557 177.931 235.926 208.5 261.769C227.173 277.554 223.5 317.769 223.5 317.769"
-                stroke="white" stroke-width="5" stroke-linecap="round"/>
+                stroke="white" strokeWidth="5" strokeLinecap="round"/>
             </svg>
 
           </CompareLayout>

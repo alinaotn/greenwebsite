@@ -51,7 +51,7 @@ const Extension: NextPage = () => {
             Normcore gentrify vape, bicycle rights succulents echo park street art austin pickled biodiesel chillwave af. Affogato freegan polaroid yuccie listicle. Authentic cred lomo, +1 portland man bun edison bulb raw denim dreamcatcher. Kogi activated charcoal yr synth vexillologist raclette next level etsy pour-over flexitarian franzen drinking vinegar. Street art cray chicharrones, 3 wolf moon poke skateboard coloring book. Vaporware tofu fixie activated charcoal knausgaard.<br/><br/>
             Pour-over activated charcoal semiotics squid jianbing, godard hot chicken cold-pressed drinking vinegar brooklyn cray listicle air plant williamsburg kale chips. Ethical ramps shaman viral prism cliche pour-over. Cred kale chips jean shorts sustainable.</span>
           <h1 className="w-3/5 mt-8">3. Test gentle develop chic</h1>
-          <div className="w-3/5  mt-4 flex">
+          <div className="w-3/5 mt-4 flex">
             <Image src="/compare1.svg" alt="Background Vector" width={400} height={300}/>
             <Image src="/compare1.svg" alt="Background Vector" width={400} height={300}/>
           </div>
