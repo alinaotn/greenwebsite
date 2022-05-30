@@ -16,24 +16,24 @@ body {
 }
 
 h1 {
-    @apply text-5xl;
+    @apply text-4xl;
     font-weight: bold;
 }
 
 h2 {
-    @apply text-4xl;
-}
-
-h3 {
     @apply text-3xl;
 }
 
-h4 {
+h3 {
     @apply text-2xl;
 }
 
-span, p, a {
+h4 {
     @apply text-medium;
+}
+
+span, p, a {
+    @apply text-base;
 }
 
 .active {
@@ -78,7 +78,6 @@ a:hover {
 }
 
 .background-image {
-    background: url("../public/background1.svg") no-repeat center;
 }
 
 @keyframes rotate{
@@ -92,4 +91,32 @@ a:hover {
 
 .center {
     transform-origin: 49.7% 45.2%;
+}
+
+@media (min-width: 768px) {
+
+    h1 {
+        @apply text-5xl;
+        font-weight: bold;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h3 {
+        @apply text-3xl;
+    }
+
+    h4 {
+        @apply text-2xl;
+    }
+
+    span, p, a {
+        @apply text-medium;
+    }
+
+    .background-image {
+        background: url("../public/background1.svg") no-repeat center;
+    }
 }

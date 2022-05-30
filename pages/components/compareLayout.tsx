@@ -18,7 +18,7 @@ export default function CompareLayout({
                                       }: React.PropsWithChildren<{}> & CompareLayoutProps) {
   return (
     <>
-      <div className="flex items-center justify-center flex-wrap w-3/5 mt-24">
+      <div className="flex items-center justify-center flex-wrap w-4/5 md:w-3/5 mt-24">
         {imageFirst ?
           <>
             <div className="w-1/2 flex items-center justify-center relative">

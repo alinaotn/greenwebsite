@@ -21,34 +21,33 @@ const Home: NextPage = () => {
           rel="stylesheet"/>
       </Head>
 
-      <div className="absolute -z-10">
+      <div className="absolute -z-10 left-[-100px] md:left-[0]">
         <Image src="/1.svg" alt="Background Vector" width={426} height={550}/>
       </div>
       <div className="absolute z-0">
         <Image src="/flower1.svg" alt="Background Flower Vector" width={419} height={491}/>
       </div>
-      <div className="absolute z-0 top-60 right-[-180px]">
+      <div className="absolute z-0 top-60 right-[-180px] hidden md:block">
         <Image src="/2.svg" alt="Background Vector" width={576} height={624}/>
       </div>
-      <div className="absolute z-0 top-44 right-[-50px]">
+      <div className="absolute z-0 top-44 right-[-50px] hidden md:block">
         <Image src="/flower2.svg" alt="Background Flower Vector" width={555} height={526}/>
       </div>
 
 
-
-      <div className="h-screen z-10 p-12 ">
+      <div className="h-screen z-10 p-6 md:p-12">
         <Menu/>
 
         <div className="flex items-center justify-center h-screen flex-wrap flex-col relative">
-          <h1 className="w-3/5 text-center background-image p-8">How your internet consumption affects our planet
+          <h1 className="w-4/5 md:w-3/5 text-center background-image p-8">How your internet consumption affects our planet
           </h1>
         </div>
 
       </div>
 
-      <div className="h-auto mt- z-10 p-12 relative">
+      <div className="h-auto mt- z-10 p-6 md:p-12 relative">
         <FlexLayout isCol={true}>
-          <h1 className="w-3/5 text-center">Let’s have a look at some examples:
+          <h1 className="w-4/5 md:w-3/5 text-center">Let’s have a look at some examples:
             If you spend one hour on the internet...</h1>
           <CompareLayout imageWidth={399} imageHeight={347}
                          content="...you consume as much energy as one full load of washing. This is 2kg of CO2 equivalent.">
@@ -155,12 +154,12 @@ const Home: NextPage = () => {
           </CompareLayout>
 
           <CompareLayout imageSrc="/lightbulb.svg" imageWidth={312} imageHeight={330}
-                         content="...you consume the same energy as an LED lightbulb constantly powered for a month."
+                         content="...you consume the same energy compared to a LED lightbulb constantly powered for a month."
                          imageFirst={false}/>
           <CompareLayout imageSrc="/car.svg" imageWidth={463} imageHeight={393}
                          content="...you consume the same energy when driving a Tesla Model S more than 30km."/>
           <CompareLayout imageSrc="/kettle.svg" imageWidth={377} imageHeight={463}
-                         content="...you consume the same energy a kettle boiled once a day for nearly three months."
+                         content="...you consume the same energy compared to a kettle boiled once a day for nearly three months."
                          imageFirst={false}/>
         </FlexLayout>
       </div>
@@ -169,22 +168,22 @@ const Home: NextPage = () => {
         <h1 className="w-3/5 text-center">What you can do now:</h1>
         <FlexLayout isCol>
           <div className="relative mt-8">
-            <a className="text-4xl font-medium absolute z-10 top-20"
-               href="/"
+            <a className="text-4xl font-medium absolute z-20 top-20"
+               href="/developer"
                target="_self"
                rel="noopener noreferrer"
             >As a software developer</a>
-            <Image className="absolute" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
+            <Image className="absolute z-10" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
           </div>
           <div className="relative mt-8">
-            <a className="text-4xl font-medium absolute z-10 top-20 left-8"
-               href="/"
+            <a className="text-4xl font-medium absolute z-20 top-20 left-8"
+               href="/user"
                target="_self"
                rel="noopener noreferrer"
             >As an internet user</a>
-            <Image className="absolute " src="/background2.svg" alt="Background Vector" width={354} height={197}/>
+            <Image className="absolute z-10" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
           </div>
-          <footer className="flex items-center justify-center mt-8 relative">
+          <footer className="flex items-center justify-center mt-8 z-20 relative">
             <span className="flex items-center">
             <a
               href="/imprint"
@@ -197,15 +196,16 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
             > &nbsp; &nbsp;Data Security</a>
              </span>
+            <div id="wcb" className="carbonbadge"/>
           </footer>
         </FlexLayout>
         <div className="absolute z-0 left-0 bottom-0">
           <Image src="/vector4.svg" alt="Background Vector" width={345} height={453}/>
         </div>
-        <div className="absolute z-0 left-0 bottom-0]">
+        <div className="absolute z-0 left-0 bottom-0 hidden md:block">
           <Image src="/flower4.svg" alt="Background Vector" width={436} height={564}/>
         </div>
-        <div className="absolute z-0 right-0 top-0">
+        <div className="absolute z-0 right-0 top-0 hidden md:block">
           <Image src="/flower5.svg" alt="Background Vector" width={400} height={500}/>
         </div>
       </div>
