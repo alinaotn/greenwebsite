@@ -38,8 +38,8 @@ const Developer: NextPage = () => {
           <Image src="/flower7.svg" alt="Background Vector" width={400} height={500}/>
         </div>
         <Menu/>
-        <div className="flex items-center  flex-wrap flex-col">
-          <h1 className="w-4/5 md:w-3/5 mt-24">Developers should have a mission:</h1>
+        <div className="flex items-center flex-wrap flex-col">
+          <h1 className="w-4/5 md:w-3/5 md:mt-24">Developers should have a mission:</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4">Designing and developing minimalist websites is not easy because of the many ways to make a website interactive and as attractive as possible. This makes it even more important for web developers and user experience designers to think about how good UX can improve sustainability at the beginning of a project. This page looks at the options available to UX designers and the guidelines programmers can use to ensure that the digital product they develop is as energy efficient as possible.</span>
           <h1 className="w-4/5 md:w-3/5 mt-8">1. User Journeys</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4">
@@ -111,7 +111,7 @@ Many projects use libraries or frameworks in their code, which should also adher
           <h1 className="w-4/5 md:w-3/5 mt-8">10. Less JavaScript</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">
             JavaScript not only contributes to reducing energy efficiency through the added file size, but also through the processing overhead of the language.
-JavaScript is a client-side programming language, which means that the language is interpreted on the user's device, where it increases CPU usage, which in turn increases energy consumption. A group of Portuguese researchers compared programming languages and evaluated them in terms of energy efficiency. JavaScript is in the lower midfield in terms of energy efficiency. The language TypeScript , a typed form of JavaScript, scores even worse with 21.50 . Yet TypeScript is becoming increasingly popular in the use of frontend frameworks such as React or Vue. Especially when it comes to solving algorithmic problems, JavaScript does not fare badly. Especially the use of JS for animations or DOM manipulations affects the energy efficiency of a website negatively.
+JavaScript is a client-side programming language, which means that the language is interpreted on the user's device, where it increases CPU usage, which in turn increases energy consumption. A group of Portuguese researchers compared programming languages and evaluated them in terms of energy efficiency. JavaScript is in the lower midfield in terms of energy efficiency. The language TypeScript, a typed form of JavaScript, scores even worse with 21.50. Yet TypeScript is becoming increasingly popular in the use of frontend frameworks such as React or Vue. Especially when it comes to solving algorithmic problems, JavaScript does not fare badly. Especially the use of JS for animations or DOM manipulations affects the energy efficiency of a website negatively.
 
           </span>
 
@@ -146,7 +146,29 @@ JavaScript is a client-side programming language, which means that the language 
           A large proportion of the energy consumed on the Internet is used to transmit data via telecommunications networks. The closer the server center is to the user group, the shorter the transmission paths and the less energy is consumed. Particularly if you have a specific user group and are only of interest to German users, for example, a German server center can save an enormous amount of energy. energy can be saved by having a German server center.</span>
 
           <h4 className="w-4/5 md:w-3/5 mt-16 font-medium">Sources</h4>
-          <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">TODO: add sources</span>
+          <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10 break-words">
+            archive, http. 2022. http archive. http archive. [Online] 2022. [Zitat vom: 20. 1 2022.] https://httparchive.org/reports/page-weight?lens=wordpress&start=2017_05_15&end=latest&view=list
+            <br/>      <br/>
+            Greenwood, Tom. 2021. Sustainable Web Design. New York : A Book Apart, 2021. 978-1-952616-04-4
+            <br/>      <br/>
+            Osman, Maddy. 2021. Kinsta. Wordpress-Statistiken. [Online] Kinsta, 29. 04 2021. [Zitat vom: 17. 03 2022.]
+            <br/>      <br/>
+            Google. 2022. Developers. [Online] 21. 01 2022. [Zitat vom: 03. 02 2022.] https://developers.google.com/speed/webp/docs/webp_study
+            <br/>      <br/>
+            Tung, Liam. 2018. Google: Here's why dark mode massively extends your OLED phone's battery life. zdnet. [Online] 09. 09 2018. [Zitat vom: 10. 03 2022.] https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/
+            <br/>      <br/>
+            Ranking Programming Languages by Energy Efficiency. Rui, Pereira, et al. 2021. Minho : Science of Computer Programming, 2021, Bd. Volume 205. ISSN 0167-6423,
+            <br/>      <br/>
+            Greenwood, Tom. 2019. Website Energy Efficiency. Wholegraindigital. [Online] Wholegrain Digital, 23. 10 2019. [Zitat vom: 03. 02 200.] https://www.wholegraindigital.com/blog/website-energy-efficiency/
+            <br/>      <br/>
+            https://www.sonarqube.org/
+            <br/>      <br/>
+            https://v-fonts.com/
+            <br/>      <br/>
+            https://varnish-cache.org/
+            <br/>      <br/>
+            https://www.typescriptlang.org/
+          </span>
 
         </div>
         <footer className="flex items-center justify-center mt-8 relative">

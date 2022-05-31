@@ -8,7 +8,7 @@ export default function Menu() {
   const [showMenuItems, setShowMenuItems] = React.useState(false);
 
   return (
-    <div className="flex md:items-center justify-between w-full z-20">
+    <div className="flex md:items-center justify-between w-full h-[170px] h-fit z-20">
       <span className="text-dark-green font-bold">        <a href="/"
                                                              target="_self"
                                                              rel="noopener noreferrer">Green Website</a></span>

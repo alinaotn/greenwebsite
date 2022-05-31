@@ -37,12 +37,10 @@ const Home: NextPage = () => {
 
       <div className="h-screen z-10 p-6 md:p-12">
         <Menu/>
-
         <div className="flex items-center justify-center h-screen flex-wrap flex-col relative">
           <h1 className="w-4/5 md:w-3/5 text-center background-image p-8">How your internet consumption affects our planet
           </h1>
         </div>
-
       </div>
 
       <div className="h-auto mt- z-10 p-6 md:p-12 relative">
@@ -167,7 +165,7 @@ const Home: NextPage = () => {
       <div className="h-screen z-10 relative flex items-center justify-center flex-col mt-24 relative">
         <h1 className="w-3/5 text-center">What you can do now:</h1>
         <FlexLayout isCol>
-          <div className="relative mt-8">
+          <div className="relative md:mt-8">
             <a className="text-4xl font-medium absolute z-20 top-20"
                href="/developer"
                target="_self"
