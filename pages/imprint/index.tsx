@@ -2,6 +2,7 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Imprint: NextPage = () => {
 
@@ -25,9 +26,10 @@ const Imprint: NextPage = () => {
       <div className="z-10 p-12 relative">
         <div className="flex items-center justify-between w-full">
           <span className="text-dark-green font-bold">
-            <a href="/"
-               target="_self"
-               rel="noopener noreferrer">Green Website</a>
+            <Link href="/">
+            <a
+              target="_self"
+              rel="noopener noreferrer">Green Website</a></Link>
           </span>
         </div>
         <div className="flex mt-24 flex-col w-3/5">
@@ -42,16 +44,15 @@ const Imprint: NextPage = () => {
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
+              <Link href="/">
             <a
-              href="/imprint"
               target="_self"
               rel="noopener noreferrer"
-            >Imprint &nbsp; &nbsp;</a> |
-            <a
-              href="/security"
-              target="_self"
-              rel="noopener noreferrer"
-            > &nbsp; &nbsp;Data Security</a>
+            >Imprint &nbsp; &nbsp;</a></Link> |
+              <Link href="/"><a
+                target="_self"
+                rel="noopener noreferrer"
+              > &nbsp; &nbsp;Data Security</a></Link>
              </span>
         </footer>
       </div>

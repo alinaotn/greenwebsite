@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Menu from "../components/menu";
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 
 const User: NextPage = () => {
 
@@ -41,7 +42,7 @@ const User: NextPage = () => {
           </span>
           <h1 className="w-4/5 md:w-3/5 mt-8">1. Reduce video streaming</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4">
-          Internet usage behavior can also have a positive effect on the energy balance. One simple, but also difficult to implement in today's society, option is to reduce video streaming via platforms such as YouTube, Netflix or Amazon Prime.
+          Internet usage behavior can also have a positive effect on the energy balance. One simple, but also difficult to implement in today&apos;s society, option is to reduce video streaming via platforms such as YouTube, Netflix or Amazon Prime.
           </span>
           <h1 className="w-4/5 md:w-3/5 mt-8">2. Reduce cloud usage</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4">
@@ -49,7 +50,7 @@ const User: NextPage = () => {
           </span>
           <h1 className="w-4/5 md:w-3/5 mt-8">3. Take care of your hardware</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4">
-          When we think of the environmental pollution caused by the Internet, we often first think of data centers and their enormous energy consumption. However, the reality is more complex. The Internet would not exist without all the connected laptops, cell phones or tablets that provide access to the network. Contrary to popular belief, it is the manufacture of these devices that accounts for the largest share of the Internet's environmental footprint on a global scale .For this reason, it is important to buy high quality hardware and use that hardware for years to come. Today's society tends to always own the latest and greatest smartphone model, however, this goes against the sustainable idea. When hardware needs to be replaced, a good way is to buy so-called "refurbished" devices, i.e. used and refurbished devices.
+          When we think of the environmental pollution caused by the Internet, we often first think of data centers and their enormous energy consumption. However, the reality is more complex. The Internet would not exist without all the connected laptops, cell phones or tablets that provide access to the network. Contrary to popular belief, it is the manufacture of these devices that accounts for the largest share of the Internet&apos;s environmental footprint on a global scale. For this reason, it is important to buy high quality hardware and use that hardware for years to come. Today&apos;s society tends to always own the latest and greatest smartphone model, however, this goes against the sustainable idea. When hardware needs to be replaced, a good way is to buy so-called &quot;refurbished&quot; devices, i.e. used and refurbished devices.
           </span>
 
           <h1 className="w-4/5 md:w-3/5 mt-8">4. Surf with care</h1>
@@ -73,16 +74,15 @@ const User: NextPage = () => {
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
+              <Link href="/">
             <a
-              href="/"
               target="_self"
               rel="noopener noreferrer"
-            >Imprint &nbsp; &nbsp;</a> |
-            <a
-              href="/"
-              target="_self"
-              rel="noopener noreferrer"
-            > &nbsp; &nbsp;Data Security</a>
+            >Imprint &nbsp; &nbsp;</a></Link> |
+              <Link href="/"><a
+                target="_self"
+                rel="noopener noreferrer"
+              > &nbsp; &nbsp;Data Security</a></Link>
              </span>
         </footer>
       </div>

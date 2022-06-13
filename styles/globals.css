@@ -80,9 +80,13 @@ a:hover {
 .background-image {
 }
 
-@keyframes rotate{
-    from{ transform: rotate(-360deg); }
-    to{ transform: rotate(360deg); }
+@keyframes rotate {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 #rotate {
@@ -119,4 +123,9 @@ a:hover {
     .background-image {
         background: url("../public/background1.svg") no-repeat center;
     }
+}
+
+.carbonbadge {
+    margin-top: 10px;
+    z-index: 20;
 }

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Menu from "../components/menu";
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 
 const Developer: NextPage = () => {
 
@@ -58,7 +59,7 @@ const Developer: NextPage = () => {
 
 
             The content of the website should attract only those users who are really interested in the content. Therefore, clear and efficient text can help prevent wasted time on the Internet and help reduce the associated waste of energy. Also, in the general maintenance of page content, care should be taken to delete content that is no longer used, so as not to keep the page load unnecessarily large. A suitable parameter for measuring the relevance of a page is the bounce rate. When people come to a website from an external source and leave without further interaction, this is called a bounce. A high bounce rate can have several reasons:
-<br/><br/>1. The content of a website is structured in such a way that it mistakenly attracts users who were looking for something else.
+      <br/><br/>1. The content of a website is structured in such a way that it mistakenly attracts users who were looking for something else.
 <br/><br/>2. The website attracts the right target group of users, but the users search in vain for the content they are interested in and leave the website dissatisfied.
 <br/><br/>3. The content loads so slowly that site visitors leave the site early.
 The bounce rate is not necessarily a parameter that can be classified as good or bad. However, it can indicate that content improvements on the website are appropriate. Regular checking and maintenance of content should be as natural as the technical maintenance of a website.
@@ -96,7 +97,7 @@ The following examples shows how the dithering effect looks like:
           </span>
           <h1 className="w-4/5 md:w-3/5 mt-8">7. Fonts</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">
-          System fonts are not as diverse, but since they are already installed on users' devices, there is no need to load an additional file. Many variations of fonts should also be avoided. If font variations are used, however, variable fonts can help.  Variable fonts are designed to allow precise scaling of thickness and slant, so that infinite variations of a single font can be rendered from a single font file. The Variable Fonts website invites you to try them out .
+          System fonts are not as diverse, but since they are already installed on users devices, there is no need to load an additional file. Many variations of fonts should also be avoided. If font variations are used, however, variable fonts can help.  Variable fonts are designed to allow precise scaling of thickness and slant, so that infinite variations of a single font can be rendered from a single font file. The Variable Fonts website invites you to try them out .
           </span>
           <h1 className="w-4/5 md:w-3/5 mt-8">8. Colors</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">
@@ -111,7 +112,7 @@ Many projects use libraries or frameworks in their code, which should also adher
           <h1 className="w-4/5 md:w-3/5 mt-8">10. Less JavaScript</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">
             JavaScript not only contributes to reducing energy efficiency through the added file size, but also through the processing overhead of the language.
-JavaScript is a client-side programming language, which means that the language is interpreted on the user's device, where it increases CPU usage, which in turn increases energy consumption. A group of Portuguese researchers compared programming languages and evaluated them in terms of energy efficiency. JavaScript is in the lower midfield in terms of energy efficiency. The language TypeScript, a typed form of JavaScript, scores even worse with 21.50. Yet TypeScript is becoming increasingly popular in the use of frontend frameworks such as React or Vue. Especially when it comes to solving algorithmic problems, JavaScript does not fare badly. Especially the use of JS for animations or DOM manipulations affects the energy efficiency of a website negatively.
+JavaScript is a client-side programming language, which means that the language is interpreted on the user&apos;s device, where it increases CPU usage, which in turn increases energy consumption. A group of Portuguese researchers compared programming languages and evaluated them in terms of energy efficiency. JavaScript is in the lower midfield in terms of energy efficiency. The language TypeScript, a typed form of JavaScript, scores even worse with 21.50. Yet TypeScript is becoming increasingly popular in the use of frontend frameworks such as React or Vue. Especially when it comes to solving algorithmic problems, JavaScript does not fare badly. Especially the use of JS for animations or DOM manipulations affects the energy efficiency of a website negatively.
 
           </span>
 
@@ -133,7 +134,7 @@ JavaScript is a client-side programming language, which means that the language 
 
           <h1 className="w-4/5 md:w-3/5 mt-8">14. Server caching</h1>
           <span className="w-4/5 md:w-3/5 text-justify mt-4 z-10">
-          Server-side energy consumption can also be reduced, for example with caching technologies such as Varnish. Static versions of each page are pre-generated so that the server overhead can be significantly reduced for most visitors. This not only significantly reduces the server's energy consumption, but also significantly shortens page loading times.
+          Server-side energy consumption can also be reduced, for example with caching technologies such as Varnish. Static versions of each page are pre-generated so that the server overhead can be significantly reduced for most visitors. This not only significantly reduces the server&apos;s energy consumption, but also significantly shortens page loading times.
           </span>
 
           <h1 className="w-4/5 md:w-3/5 mt-8">15. PUE Rating</h1>
@@ -155,7 +156,7 @@ JavaScript is a client-side programming language, which means that the language 
             <br/>      <br/>
             Google. 2022. Developers. [Online] 21. 01 2022. [Zitat vom: 03. 02 2022.] https://developers.google.com/speed/webp/docs/webp_study
             <br/>      <br/>
-            Tung, Liam. 2018. Google: Here's why dark mode massively extends your OLED phone's battery life. zdnet. [Online] 09. 09 2018. [Zitat vom: 10. 03 2022.] https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/
+            Tung, Liam. 2018. Google: Here&apos;s why dark mode massively extends your OLED phone&apos;s battery life. zdnet. [Online] 09. 09 2018. [Zitat vom: 10. 03 2022.] https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/
             <br/>      <br/>
             Ranking Programming Languages by Energy Efficiency. Rui, Pereira, et al. 2021. Minho : Science of Computer Programming, 2021, Bd. Volume 205. ISSN 0167-6423,
             <br/>      <br/>
@@ -173,16 +174,16 @@ JavaScript is a client-side programming language, which means that the language 
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
+              <Link href="/">
             <a
-              href="/"
               target="_self"
               rel="noopener noreferrer"
-            >Imprint &nbsp; &nbsp;</a> |
+            >Imprint &nbsp; &nbsp;</a></Link> |
+              <Link href="/">
             <a
-              href="/"
               target="_self"
               rel="noopener noreferrer"
-            > &nbsp; &nbsp;Data Security</a>
+            > &nbsp; &nbsp;Data Security</a></Link>
              </span>
         </footer>
       </div>

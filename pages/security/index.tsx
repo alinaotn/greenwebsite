@@ -2,6 +2,7 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Security: NextPage = () => {
 
@@ -25,9 +26,10 @@ const Security: NextPage = () => {
       <div className="z-10 p-12 relative">
         <div className="flex items-center justify-between w-full">
           <span className="text-dark-green font-bold">
-            <a href="/"
-               target="_self"
-               rel="noopener noreferrer">Green Website</a>
+            <Link href="/">
+            <a
+              target="_self"
+              rel="noopener noreferrer">Green Website</a></Link>
           </span>
         </div>
         <div className="flex mt-24 flex-col w-3/5">
@@ -53,7 +55,7 @@ const Security: NextPage = () => {
             Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der
             folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit: <a
               href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-              target="_blank">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>.
+              target="_blank" rel="noreferrer" >https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html </a>.
           </p>
           <br/>
           <p><strong>Recht auf Datenübertragbarkeit</strong></p>
@@ -85,7 +87,7 @@ const Security: NextPage = () => {
             Einsatz von Google Web Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser
             Website haben wir ein berechtigtes Interesse an der optimalen Darstellung und Übertragung unseres
             Webauftritts.</p>
-          <p>Das Unternehmen Google ist für das us-europäische Datenschutzübereinkommen "Privacy Shield" zertifiziert.
+          <p>Das Unternehmen Google ist für das us-europäische Datenschutzübereinkommen &quot;Privacy Shield&quot; zertifiziert.
             Dieses Datenschutzübereinkommen soll die Einhaltung des in der EU geltenden Datenschutzniveaus
             gewährleisten.</p>
           <p>Einzelheiten über Google Web Fonts finden Sie unter: <a
@@ -94,23 +96,22 @@ const Security: NextPage = () => {
               href="https://policies.google.com/privacy/partners?hl=de">https://policies.google.com/privacy/partners?hl=de</a>
           </p>
           <br/> <p><small>Quelle: Datenschutz-Konfigurator von <a href="http://www.mein-datenschutzbeauftragter.de"
-                                                                  target="_blank">mein-datenschutzbeauftragter.de</a></small>
+                                                                  target="_blank" rel="noreferrer" >mein-datenschutzbeauftragter.de</a></small>
         </p>
 
 
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
+              <Link href="/imprint">
             <a
-              href="/imprint"
               target="_self"
               rel="noopener noreferrer"
-            >Imprint &nbsp; &nbsp;</a> |
-            <a
-              href="/security"
+            >Imprint &nbsp; &nbsp;</a></Link> |
+            <Link href="/security"><a
               target="_self"
               rel="noopener noreferrer"
-            > &nbsp; &nbsp;Data Security</a>
+            > &nbsp; &nbsp;Data Security</a></Link>
              </span>
         </footer>
       </div>

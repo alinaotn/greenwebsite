@@ -5,6 +5,7 @@ import FlexLayout from "./components/flexLayout";
 import Menu from "./components/menu";
 import React from "react";
 import CompareLayout from "./components/compareLayout";
+import Link from 'next/link';
 
 const Home: NextPage = () => {
 
@@ -24,7 +25,7 @@ const Home: NextPage = () => {
       <div className="absolute -z-10 left-[-100px] md:left-[0]">
         <Image src="/1.svg" alt="Background Vector" width={426} height={550}/>
       </div>
-      <div className="absolute z-0">
+      <div className="absolute -z-10">
         <Image src="/flower1.svg" alt="Background Flower Vector" width={419} height={491}/>
       </div>
       <div className="absolute z-0 top-60 right-[-180px] hidden md:block">
@@ -37,8 +38,9 @@ const Home: NextPage = () => {
 
       <div className="h-screen z-10 p-6 md:p-12">
         <Menu/>
-        <div className="flex items-center justify-center h-screen flex-wrap flex-col relative">
-          <h1 className="w-4/5 md:w-3/5 text-center background-image p-8">How your internet consumption affects our planet
+        <div className="flex items-center justify-center md:h-screen flex-wrap flex-col relative">
+          <h1 className="w-4/5 md:w-3/5 text-center background-image p-8">How your internet consumption affects our
+            planet
           </h1>
         </div>
       </div>
@@ -166,38 +168,38 @@ const Home: NextPage = () => {
         <h1 className="w-3/5 text-center">What you can do now:</h1>
         <FlexLayout isCol>
           <div className="relative md:mt-8">
-            <a className="text-4xl font-medium absolute z-20 top-20"
-               href="/developer"
-               target="_self"
-               rel="noopener noreferrer"
-            >As a software developer</a>
+            <Link href="/developer">
+              <a className="text-4xl font-medium absolute z-20 top-20"
+                 target="_self"
+                 rel="noopener noreferrer"
+              >As a software developer</a></Link>
             <Image className="absolute z-10" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
           </div>
           <div className="relative mt-8">
-            <a className="text-4xl font-medium absolute z-20 top-20 left-8"
-               href="/user"
-               target="_self"
-               rel="noopener noreferrer"
-            >As an internet user</a>
+            <Link href="/user">
+              <a className="text-4xl font-medium absolute z-20 top-20 left-8"
+                 target="_self"
+                 rel="noopener noreferrer"
+              >As an internet user</a></Link>
             <Image className="absolute z-10" src="/background2.svg" alt="Background Vector" width={354} height={197}/>
           </div>
+          <div id="wcb" className="carbonbadge"/>
           <footer className="flex items-center justify-center mt-8 z-20 relative">
             <span className="flex items-center">
+              <Link href="/imprint">
             <a
-              href="/imprint"
               target="_self"
               rel="noopener noreferrer"
-            >Imprint &nbsp; &nbsp;</a> |
+            >Imprint &nbsp; &nbsp;</a></Link> |
+              <Link href="/security">
             <a
-              href="/security"
               target="_self"
               rel="noopener noreferrer"
-            > &nbsp; &nbsp;Data Security</a>
+            > &nbsp; &nbsp;Data Security</a></Link>
              </span>
-            <div id="wcb" className="carbonbadge"/>
           </footer>
         </FlexLayout>
-        <div className="absolute z-0 left-0 bottom-0">
+        <div className="absolute z-0 left-0  bottom-[-40px] md:bottom-0">
           <Image src="/vector4.svg" alt="Background Vector" width={345} height={453}/>
         </div>
         <div className="absolute z-0 left-0 bottom-0 hidden md:block">

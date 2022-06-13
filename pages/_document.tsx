@@ -1,6 +1,5 @@
 import Document, {DocumentContext, Html, Head, Main, NextScript} from 'next/document'
 import React from "react";
-import Script from 'next/script';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -21,7 +20,6 @@ class MyDocument extends Document {
         <body>
         <Main/>
         <NextScript/>
-        <Script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" strategy="lazyOnload"/>
         </body>
       </Html>
     )
