@@ -174,12 +174,12 @@ JavaScript is a client-side programming language, which means that the language 
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
-              <Link href="/">
+              <Link href="/imprint">
             <a
               target="_self"
               rel="noopener noreferrer"
             >Imprint &nbsp; &nbsp;</a></Link> |
-              <Link href="/">
+              <Link href="/security">
             <a
               target="_self"
               rel="noopener noreferrer"

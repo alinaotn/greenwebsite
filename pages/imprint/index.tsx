@@ -42,14 +42,14 @@ const Imprint: NextPage = () => {
           <p>Bei redaktionellen Inhalten:</p>
           <p>Verantwortlich nach § 55 Abs.2 RStV<br/>Alina Otten<br/>Am Pesch 28<br/>40625 Düsseldorf</p>
         </div>
-        <footer className="flex items-center justify-center mt-8 relative">
+        <footer className="flex items-center justify-center mt-56 relative">
             <span className="flex items-center">
-              <Link href="/">
+              <Link href="/imprint">
             <a
               target="_self"
               rel="noopener noreferrer"
             >Imprint &nbsp; &nbsp;</a></Link> |
-              <Link href="/"><a
+              <Link href="/security"><a
                 target="_self"
                 rel="noopener noreferrer"
               > &nbsp; &nbsp;Data Security</a></Link>

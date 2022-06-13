@@ -60,12 +60,12 @@ const Extension: NextPage = () => {
         </div>
         <footer className="flex items-center justify-center mt-8 relative">
             <span className="flex items-center">
-              <Link href="/">
+              <Link href="/imprint">
             <a
               target="_self"
               rel="noopener noreferrer"
             >Imprint &nbsp; &nbsp;</a></Link> |
-               <Link href="/"><a
+               <Link href="/security"><a
                  target="_self"
                  rel="noopener noreferrer"
                > &nbsp; &nbsp;Data Security</a></Link>
