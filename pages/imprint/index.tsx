@@ -34,15 +34,15 @@ const Imprint: NextPage = () => {
         </div>
         <div className="flex mt-24 flex-col w-3/5">
           <h3><strong>Impressum</strong></h3>
-          <br/><br/>
-          <p>Anbieter:<br/>Alina Otten<br/>Am Pesch 28<br/>40625 Düsseldorf</p>
+          <br/><br/><br/>
+          <p>Anbieterin:<br/>Alina Otten<br/>Am Pesch 28<br/>40625 Düsseldorf</p>
           <br/><br/>
           <p>Kontakt:<br/>E-Mail: alinaotten@web.de<br/>Website: https://github.com/alinaotn</p>
           <br/><br/>
           <p>Bei redaktionellen Inhalten:</p>
           <p>Verantwortlich nach § 55 Abs.2 RStV<br/>Alina Otten<br/>Am Pesch 28<br/>40625 Düsseldorf</p>
         </div>
-        <footer className="flex items-center justify-center mt-56 relative">
+        <footer className="flex items-center justify-center mt-24 relative">
             <span className="flex items-center">
               <Link href="/imprint">
             <a

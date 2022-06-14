@@ -35,10 +35,10 @@ const Security: NextPage = () => {
         <div className="flex mt-24 flex-col w-3/5">
 
 
-          <h3><strong><big>Datenschutzerklärung</big></strong></h3><br/>
+          <h3><strong><big>Datenschutzerklärung</big></strong></h3><br/><br/><br/>
           <p><strong>Allgemeiner Hinweis und Pflichtinformationen</strong></p>
           <p><strong>Benennung der verantwortlichen Stelle</strong></p><br/>
-          <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p><br/><br/>
+          <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p><br/>
           <span>Frau Alina Otten</span><span>Am Pesch 28</span><span>40625 Düsseldorf</span><br/>
           <p>Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der
             Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).</p><br/>

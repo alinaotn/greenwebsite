@@ -8,6 +8,13 @@ import CompareLayout from "./components/compareLayout";
 import Link from 'next/link';
 
 const Home: NextPage = () => {
+  const [imageFirst, setImageFirst] = React.useState(false);
+
+  React.useEffect(() => {
+    if (window.innerWidth < 768) {
+      setImageFirst(true)
+    }
+  }, []);
 
   return (
     <div>
@@ -22,8 +29,11 @@ const Home: NextPage = () => {
           rel="stylesheet"/>
       </Head>
 
-      <div className="absolute -z-10 left-[-100px] md:left-[0]">
+      <div className="absolute -z-10 hidden md:block left-[0]">
         <Image src="/1.svg" alt="Background Vector" width={426} height={550}/>
+      </div>
+      <div className="absolute -z-10 left-[-100px] md:hidden">
+        <Image src="/1-mobile.svg" alt="Background Vector" width={426} height={550}/>
       </div>
       <div className="absolute -z-10">
         <Image src="/flower1.svg" alt="Background Flower Vector" width={419} height={491}/>
@@ -47,11 +57,11 @@ const Home: NextPage = () => {
 
       <div className="h-auto mt- z-10 p-6 md:p-12 relative">
         <FlexLayout isCol={true}>
-          <h1 className="w-4/5 md:w-3/5 text-center">Let’s have a look at some examples:
+          <h1 className="w-4/5 md:w-3/5 text-center pb-24">Let’s have a look at some examples:
             If you spend one hour on the internet...</h1>
-          <CompareLayout imageWidth={399} imageHeight={347}
+          <CompareLayout imageWidth={399} imageHeight={307} maxWidth="max-w-[260px]" maxHeight="max-h-[200px]"
                          content="...you consume as much energy as one full load of washing. This is 2kg of CO2 equivalent.">
-            <svg width="399" height="347" viewBox="0 0 399 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="399" height="307" viewBox="0 0 399 347" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M163.272 268.133C111.583 249.723 79.6135 216.826 76.276 167.07C72.3491 108.528 110.771 101.021 163.272 66.0082C204.376 38.5963 247.516 -0.3829 292.668 21.3191C342.567 45.303 310.712 91.6254 314.71 142.243C318.115 185.354 338.316 201.569 314.71 239.258C285.114 286.508 219.461 288.145 163.272 268.133Z"
                 fill="#667C74"/>
@@ -150,17 +160,15 @@ const Home: NextPage = () => {
                 d="M3 160.036C3 160.036 35.7723 127.298 67.5 150.036C96.2079 170.609 67.5783 237.25 93 261.769C121.812 289.557 177.931 235.926 208.5 261.769C227.173 277.554 223.5 317.769 223.5 317.769"
                 stroke="white" strokeWidth="5" strokeLinecap="round"/>
             </svg>
-
           </CompareLayout>
-
-          <CompareLayout imageSrc="/lightbulb.svg" imageWidth={312} imageHeight={330}
+          <CompareLayout imageSrc="/lightbulb.svg" imageWidth={312} imageHeight={330} maxWidth="max-w-[220px]"
                          content="...you consume the same energy compared to a LED lightbulb constantly powered for a month."
-                         imageFirst={false}/>
-          <CompareLayout imageSrc="/car.svg" imageWidth={463} imageHeight={393}
+                         imageFirst={imageFirst}/>
+          <CompareLayout imageSrc="/car.svg" imageWidth={463} imageHeight={393} maxWidth="max-w-[260px]"
                          content="...you consume the same energy when driving a Tesla Model S more than 30km."/>
-          <CompareLayout imageSrc="/kettle.svg" imageWidth={377} imageHeight={463}
+          <CompareLayout imageSrc="/kettle.svg" imageWidth={377} imageHeight={463} maxWidth="max-w-[220px]"
                          content="...you consume the same energy compared to a kettle boiled once a day for nearly three months."
-                         imageFirst={false}/>
+                         imageFirst={imageFirst}/>
         </FlexLayout>
       </div>
 
